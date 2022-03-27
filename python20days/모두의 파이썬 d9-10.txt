@@ -1,0 +1,10 @@
+0311
+DAY9
+range(a, b)
+# [a,b)
+random.randint(a, b)
+#[a,b]
+
+
+DAY10
+반복문 멈추기 : ctrl + C

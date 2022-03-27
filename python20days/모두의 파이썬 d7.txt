@@ -1,0 +1,42 @@
+0309
+Day
+
+s = input("--> ") 문장은 “여기에 입력해주세요”라는 뜻으로 "--> "를 화면에 ‘출력’한 후, 키보드를 통해 사용자에게 값을 ‘입력’받아 변수 s에 저장하는 과정
+
+s = input("--> ") 
+
+
+name = input("Your name? ")   # 이름을 입력받아 name 변수에 저장합니다.
+
+print("Hello", name)          # Hello와 함께 name을 출력합니다.
+
+
+파이썬 자료형
+정수 integer int 소수점이 없는 수
+소수 floating-point number float 소수점이 있는 수, 부동소수점수
+문자열 string str 알파벳 혹은 다른 문자로 이루어진 문장
+
+파이썬에서 문자열을 구분할 때는 큰따옴표("") 혹은 작은따옴표('')를 사용
+
+x = input("?")
+? 뜨면서 input 내용을 str로 저장
+
+Day8
+ 구문 에러 : SyntaxError: can't assign to operator, SyntaxError: can't assign to literal
+
+값을 변수에 저장하는 대입 연산자(=)와 값을 비교하는 비교 연산자(==)를 혼동해서 잘못 쓰면 에러가 발생합니다.
+
+
+if 비교할 문장:
+
+True일 때 실행할 문장(들여쓰기)
+
+else:
+
+False일 때 실행할 문장(들여쓰기)
+
+
+
+
+
+

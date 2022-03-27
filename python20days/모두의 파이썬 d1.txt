@@ -1,0 +1,22 @@
+0304
+Day1 - python idel 설치
+
+◼︎ 이름 에러 : NameError: name ‘…’ is not defined
+◼︎ 구문 에러 : SyntaxError: EOL while scanning string literal
+	문자열 "" 잘못 썼을 때
+◼︎ 구문 에러 : SyntaxError: unexpected EOF while parsing 또는 SyntaxError: invalid syntax	철자법, 따옴표 여닫기, 괄호 여닫기 등을 잘못 썼을 때
+◼︎임포트 에러 : ImportError: No module named
+	import 명령으로 가져오려는 외부 모듈의 이름이 잘못 쓰였을 때 발생
+◼︎ 거북이 모양 에러 : TurtleGraphicError: There is no shape named … 
+
+◼︎ 속성 에러 : AttributeError: ‘module’ object has no attribute …
+
+모듈의 함수나 변수 이름이 잘못 쓰였을 때 발생하는 에러
+import turtle as t
+t.shape("turtle")
+t.forward(10)
+t.right(10)
+t.backward(10)
+t.left(10)
+t.circle(50)
+Day2 - 간단한 프로그램 만들기
